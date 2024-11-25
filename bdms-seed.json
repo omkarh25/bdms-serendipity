@@ -1,0 +1,58 @@
+{
+  "project_name": "bdms",
+  "vision": "Assists working with tabular data, by providing MVC (Model View Controller) functionality. \nCurrently will be implemeting for serendipity file database management system.\n\n\n",
+  "reference_links": [
+    {
+      "link": "screenshot",
+      "features": [
+        "sample final product look"
+      ]
+    }
+  ],
+  "tech_stack": {
+    "domain": "http://bdms.theserendipity.org/",
+    "repo_name": "bdms-serendipity",
+    "frontend_framework": "NextJS",
+    "backend_framework": "FastAPI",
+    "databases": [
+      "SQLLIte"
+    ],
+    "team_members": [
+      "Omkar",
+      "Varshita",
+      "Amol"
+    ],
+    "deployment_option": "Docker"
+  },
+  "database_schema": {
+    "tables": [
+      {
+        "name": "ByteDB",
+        "fields": [
+          {
+            "Description": "please generate sample data for organizing all files types of my organization. Include headers like file_id, file_name, file_type, file_size"
+          }
+        ],
+        "relationships": []
+      }
+    ]
+  },
+  "user_stories": [
+    "The user should be able to record all the files of a company, create file operations discovery processes and view the data based on a given role"
+  ],
+  "id": "1732527763836-bdms",
+  "coding_instructions": [
+        "1. Use SOLID principles for development. Reuse components where possible.",
+        "2. Use proper naming conventions for variables, functions, components, etc.",
+        "3. Dont hardcode any values. All values should be fetched from database or extracted to environment variables or config files.",
+        "4. Use NextJS and FastAPI for frontend and backend respectively.",
+        "5. Create files.db with sample data in sqlite file in /database folder.",
+        "6. Use /frontend and /backend folders for frontend and backend respectively.",
+        "7. Implement SOLID principles for backend API by optimizing api components. Reuse components where possible.",
+        "8. Implement SOLID principles in front end by reusing components where possible and keep the app pages manageable. Use typescript to make good data validations and Tailwind CSS for better style control.",
+        "9. Create /docs for documentation.Create good README.md file to run the app locally and deploy the app in docker.",
+        "10. Use SQL CLI commands to check the db schema if necessary.",
+        "11. Use CURL command to check API responses to get better idea for data type mismatches",
+        "12. Use the screenshot provided by user as reference to fix any frontend related issues."
+    ]
+}
